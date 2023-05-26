@@ -1,0 +1,152 @@
+.container {
+    background-color: rgb(75, 0, 250);
+    width: 190vh;
+    height: 75vh;
+    margin-top: 12vh;
+    margin-left:8vh;
+    border: 0.5vh solid whitesmoke;
+    border-radius: 7px ;
+    opacity: 0.8;
+}
+.welcome{
+    width: 100%;
+    height: 0px;
+    margin: 0;
+    color: whitesmoke;
+    text-align:center;
+    z-index: -1;
+    margin-bottom: -2vh;
+    padding-top: 0vh;
+    font-family: VT323;
+    font-size: 23px;
+}
+
+.container h2,
+.container h3{
+    color: rgb(150, 201, 235);
+    font-family: VT323;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for mobile screens */
+    .container {
+        width: 90vw;
+        height: 74vh;
+        margin: 11vh auto;
+    }
+
+    .welcome {
+        font-size: 18px;
+        margin-bottom: -3vh;
+    }
+
+    .container h2,
+    .container h3 {
+        font-size: 24px;
+    }
+}
+
+.post1{
+    width: 88%;
+    height: 70%;
+    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vh;
+    border-radius: 7px;
+    display: flex;
+    opacity: 1;
+}
+
+.post1 img{
+    margin: 1vh 2vh;
+    max-width:  600px;
+    max-height: 600px;
+    border-radius: 7px;
+    opacity: 1;
+    z-index: 999;
+}
+
+.view{
+    background-color: black;
+    width: 95%;
+    height: 90%;
+    margin:auto;
+    margin-right: 2vh;
+    border: 4px rgb(0, 134, 252) solid;
+    border-radius: 7px;
+    padding: 2vh
+}
+
+.caption{
+    color: white;
+    width: 100%;
+    height:7%;
+    text-align: center;
+    font-family: VT323;
+    font-size: 18px;
+}
+.view p {
+    color: aliceblue;
+    font-family: VT323;
+    font-size: 20px;
+}
+
+
+.flash-comments form{
+    margin-bottom: 0px;
+}
+
+.flash-comments .comment-form{
+    display: flex;
+    padding: 8px;
+    border-bottom:1px solid #eaeaea;
+}
+
+.comment-form .left-side{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding-right: 6px;
+}
+
+.comment-form .left-side .row{
+    flex: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+.comment-form .left-side .row input{
+    height: 42px;
+    width: 50%;
+}
+
+.comment-form .left-side .row textarea{
+    height: 42px;
+    margin-top:8px;
+}
+
+.comment-form .right-side{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+.comment-form .right-side button{
+    white-space: pre-wrap;
+}
+
+.comment-form textarea{
+    width:70%;
+    margin-left: 15%;
+}
+
+.right-side button {
+    margin-top: 1%;
+    background: aqua;
+}
+
