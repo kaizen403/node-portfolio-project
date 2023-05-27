@@ -204,6 +204,11 @@ body{
       width: 700px;
       font-family: VT323;
       overflow: hidden;
+      text-align: center;
+  }
+
+  .mid{
+    text-align: center;
   }
   
     .topbar a {

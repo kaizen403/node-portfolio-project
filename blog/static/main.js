@@ -54,12 +54,12 @@ class TextScramble {
   
   const phrases = [
     "_I am Rishi Vhavle_",
-    "_____I am kaizen_____",
-    "____I am a Student___",
+    "I am kaizen",
+    "I am a Student",
     "__I am a CTF Player__",
     "A Cybersec Enthusiast",
     "__I am a Programmer__",
-    "____I was a Gamer____",
+    "I was a Gamer",
   ];
   
   const el = document.querySelector(".anim-text");
