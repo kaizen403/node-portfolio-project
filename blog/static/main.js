@@ -53,12 +53,12 @@ class TextScramble {
   }
   
   const phrases = [
-    "_I am Rishi Vhavle_",
+    "I am Rishi Vhavle",
     "I am kaizen",
     "I am a Student",
-    "__I am a CTF Player__",
-    "A Cybersec Enthusiast",
-    "__I am a Programmer__",
+    "I am a CTF Player",
+    "I am a Cybersec Enthusiast",
+    "I am a Programmer",
     "I was a Gamer",
   ];
   
@@ -68,9 +68,10 @@ class TextScramble {
   let counter = 0;
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 800);
+      setTimeout(next, 600);
     });
     counter = (counter + 1) % phrases.length;
+
   };
   
   next();
@@ -78,4 +79,5 @@ class TextScramble {
   var disableScrollDiv = document.querySelector('.disable-scroll');
   disableScrollDiv.addEventListener('wheel', function(event) {
     event.preventDefault();
+
   });   

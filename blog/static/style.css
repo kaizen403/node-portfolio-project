@@ -48,26 +48,29 @@ body{
 .topbar a:hover { text-decoration: none; }
 .topbar a:active { text-decoration: none; }
 
-.anim-text{
-    color: white;
-    font-size:80px;
-    display: inline-block;
-    position:fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    height: 100px;
-    width: 700px;
-    font-family: VT323;
-    overflow: hidden;
+.anim-text {
+  color: white;
+  font-size: 82px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: VT323;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
 }
 
+.text-container {
+  display: inline-block;
+  text-align: center;
+}
 .links{
     display: inline-block;
     position:fixed;
-    top: 25%;
+    top: 30%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -75,17 +78,13 @@ body{
     margin: auto;
     height: 0;
     width: 500px;
+    z-index: -1;
+    margin-left: 42%;
 }
-
-
 
 .links a img{
   max-width: 35px;
   padding-right: 80px;
-}
-
-#spot{
-  max-width: 45px;
 }
 
 
@@ -190,26 +189,24 @@ body{
       height: 4vh;
     }
 
-    .anim-text{
+    .anim-text {
       color: white;
-      font-size:90px;
-      display: inline-block;
-      position:fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      margin: auto;
-      height: 2 00px;
-      width: 700px;
+      font-size: 90px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       font-family: VT323;
       overflow: hidden;
       text-align: center;
-  }
-
-  .mid{
-    text-align: center;
-  }
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .text-container {
+      display: inline-block;
+      text-align: center;
+    }
   
     .topbar a {
       font-size: 20px;
